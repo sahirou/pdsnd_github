@@ -203,7 +203,7 @@ def common_station(df,station_type):
         print('\nMost commonly used {0}(s):'.format(station_type.lower()))
     else:
         print('\nMost popular trip(s), from start to end:')
-        
+
     for i in range(common.shape[0]):
         print(' > {0} : {1} trips, {2}% of total trips'.format(common.iloc[i,0], common.iloc[i,1], round(common.iloc[i,1]*100/df.shape[0],1)))
 
@@ -475,18 +475,7 @@ def station_stats(df):
 
     # TO DO: display most frequent combination of start station and end station trip
     # there could be more than 1 most popular trip
-    common_trip = (
-      df[['Start Station','End Station']]
-      .groupby(['Start Station','End Station'])
-      .size()
-      .nlargest(keep = 'all', n = 1)
-      .reset_index()
-      .rename(columns = {0:'trip_count'})
-      .assign(trip = lambda x : '«' + x['Start Station'] + '»   to   «' + x['End Station'] + '»'))
-
-    print('Most popular trip(s), from start to end:')
-    for i in range(common_trip.shape[0]):
-        print(' > {0} : {1} trips, {2}% of total trips'.format(common_trip.iloc[i,3], common_trip.iloc[i,2], round(common_trip.iloc[i,2]*100/df.shape[0],1)))
+    common_station(df = df, station_type = 'Trip')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
