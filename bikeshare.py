@@ -652,8 +652,21 @@ def main():
         user_stats(df)
         print_raw_data(df = df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        while True:
+            user_type = input('\nWould you like to restart? Enter yes or no.\nyes/no> ').strip().lower()
+            if user_type ==  "yes":
+                restart = True
+                break
+            elif user_type == "no":
+                restart = False
+                break
+            else:
+                print('\nEnter yes or no, please!\n')
+                continue
+
+        if restart:
+            continue
+        else:
             break
 
 #-------------------------------------
