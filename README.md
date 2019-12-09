@@ -39,6 +39,13 @@ It is built using [`Python`][Pythonlink] and tells us about bike share use in Ch
 
 <!-- ---------------------------------------------------------------------- -->
 
+### Requirements
+- [`Python 3.x`][Pythonlink], with [`Numpy`][numpylink] and [`Pandas`][pandaslink] installed
+- CSV data files for Chicago, New York City, and Washington
+
+
+<!-- ---------------------------------------------------------------------- -->
+
 ### Usage
 1. Donwload the files below and place them in the same **specific directory** on your local machine.
 
