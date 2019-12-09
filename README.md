@@ -65,6 +65,16 @@ It is built using [`Python`][Pythonlink] and tells us about bike share use in Ch
 
 <!-- ---------------------------------------------------------------------- -->
 
+### Authors
+
+- **Mahaman Sani SAHIROU ADAMOU**
+
+  [![gitbubicon]][gitbublink]
+  [![twitericon]][twiterlink]
+  [![facebookicon]][facebooklink]
+
+<!-- ---------------------------------------------------------------------- -->
+
 <!-- web links -->
 
 [nanodegreelink]: <https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104>
@@ -72,3 +82,20 @@ It is built using [`Python`][Pythonlink] and tells us about bike share use in Ch
 [numpylink]: <https://pypi.org/project/numpy/>
 [pandaslink]: <https://pypi.org/project/pandas/>
 [csvlink]: <https://drive.google.com/drive/folders/18PIhzhmZKnxFQP7kiQzjAVxcC9oQK4TZ?usp=sharing>
+
+
+<!-- links to my social media accounts -->
+
+[gitbublink]: <https://www.github.com/sahirou>
+[twiterlink]: <https://twitter.com/SaniSahirou>
+[facebooklink]: <https://www.facebook.com/sani.sahirou>
+
+
+<!-- social media icons -->
+
+[gitbubicon]: <http://i.imgur.com/0o48UoR.png> (follow on github)
+[twitericon]: <http://i.imgur.com/tXSoThF.png> (follow on twitter)
+[facebookicon]: <http://i.imgur.com/P3YfQoD.png> (follow on facebook)
+
+
+<!-- ---------------------------------------------------------------------- -->
